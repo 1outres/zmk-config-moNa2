@@ -68,9 +68,11 @@
     status = "okay";
     device = <&trackball_central>;
 
+    input-processors = <&zip_temp_layer 2 10000>;           //自動マウスレイヤー化（layer 2 = MOUSE）
+
     scroller {
         layers = <3>;
-        input-processors = 
+        input-processors =
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
             <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
