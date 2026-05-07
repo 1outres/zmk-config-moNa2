@@ -33,64 +33,68 @@
 
         DEFAULT {
             bindings = <
-&kp Q           &kp W     &kp E             &kp R        &kp T                                            &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S     &kp D             &kp F        &kp G                          &kp SINGLE_QUOTE  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp LEFT_SHIFT  &kp Z     &kp X             &kp C        &kp V          &kp B           &kp MINUS         &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL       &kp LALT  &kp LEFT_COMMAND  &lt 4 ENTER  &kp BACKSPACE  &kp ESCAPE      &kp TAB           &lt 5 SPACE                             &mo 4
+&kp Q           &kp W     &kp E             &kp R        &kp T                                          &lt 6 Y      &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S     &kp D             &kp F        &kp G                        &kp SINGLE_QUOTE  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp LEFT_SHIFT  &kp Z     &kp X             &kp C        &kp V          &kp B         &kp MINUS         &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL       &kp LALT  &kp LEFT_COMMAND  &lt 4 ENTER  &kp BACKSPACE  &kp ESCAPE    &kp TAB           &lt 5 SPACE                             &mo 4
             >;
         };
 
         O24 {
             bindings = <
-&kp Q      &kp L     &kp U     &kp COMMA  &kp DOT                            &kp F      &kp W  &kp R  &kp Y  &kp P
-&kp E      &kp I     &kp A     &kp O      &kp MINUS              &trans     &kp K   &kp T  &kp N  &kp S  &kp H
-&kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp SEMI    &kp SLASH  &kp G   &kp D  &kp M  &kp J  &kp B
-&kp LCTRL  &kp LALT  &kp LGUI  &trans     &trans     &trans      &trans     &trans                       &trans
+&kp Q      &kp L     &kp U     &kp COMMA  &kp DOT                           &lt 6 F  &kp W  &kp R  &kp Y  &kp P
+&kp E      &kp I     &kp A     &kp O      &kp MINUS              &trans     &kp K    &kp T  &kp N  &kp S  &kp H
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp SEMI    &kp SLASH  &kp G    &kp D  &kp M  &kp J  &kp B
+&kp LCTRL  &kp LALT  &kp LGUI  &trans     &trans     &trans      &trans     &trans                        &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans     &trans     &trans                      &trans  &trans     &trans     &trans  &trans
-&trans  &trans  &mkp RCLK  &mkp LCLK  &trans             &trans   &trans  &mkp LCLK  &mkp RCLK  &mo 3   &trans
-&trans  &trans  &trans     &trans     &trans  &trans     &trans   &trans  &mkp MB4   &mkp MB5   &trans  &trans
-&trans  &trans  &trans     &trans     &trans  &trans     &trans   &trans                                &trans
+&trans  &trans  &trans     &trans     &trans                    &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &mkp RCLK  &mkp LCLK  &trans            &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 3   &trans
+&trans  &trans  &trans     &trans     &trans  &trans    &trans  &trans  &mkp MB4   &mkp MB5   &trans  &trans
+&trans  &trans  &trans     &trans     &trans  &trans    &trans  &trans                                &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&none  &none  &none  &none  &none                   &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none          &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none   &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none   &none    &none                       &none
+&none  &none  &none  &none  &none                  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none           &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                       &none
             >;
         };
 
         LAYER_1 {
             bindings = <
-&kp GRAVE  &kp N7  &kp N8  &kp N9  &kp LS(LG(NUMBER_4))                                  &trans          &trans              &trans               &trans           &trans
-&kp N0     &kp N4  &kp N5  &kp N6  &kp LC(UP_ARROW)                              &trans  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW         &kp RIGHT_ARROW  &trans
-&trans     &kp N1  &kp N2  &kp N3  &trans                &kp C_VOL_DN            &trans  &trans          &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans           &trans
-&trans     &trans  &trans  &trans  &trans                &trans                  &trans  &trans                                                                    &trans
+&kp GRAVE  &kp N7  &kp N8  &kp N9  &kp LS(LG(NUMBER_4))                    &trans          &trans              &trans               &trans           &trans
+&kp N0     &kp N4  &kp N5  &kp N6  &kp LC(UP_ARROW)                &trans  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW         &kp RIGHT_ARROW  &trans
+&trans     &kp N1  &kp N2  &kp N3  &trans                &none     &trans  &trans          &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans           &trans
+&trans     &trans  &trans  &trans  &trans                &trans    &trans  &trans                                                                    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         LAYER_2 {
             bindings = <
-&kp TILDE  &kp AMPS  &kp STAR   &kp LPAR   &trans                      &kp BACKSLASH  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE        &trans
-&kp RPAR   &kp DLLR  &kp PRCNT  &kp CARET  &trans             &trans   &kp MINUS      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDERSCORE  &trans
-&trans     &kp EXCL  &kp AT     &kp HASH   &trans  &trans     &trans   &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS        &trans
-&trans     &trans    &trans     &trans     &trans  &trans     &trans   &trans                                                              &trans
+&kp TILDE  &kp AMPS  &kp STAR   &kp LPAR   &trans                    &kp BACKSLASH  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE        &trans
+&kp RPAR   &kp DLLR  &kp PRCNT  &kp CARET  &trans            &trans  &kp MINUS      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDERSCORE  &trans
+&trans     &kp EXCL  &kp AT     &kp HASH   &trans  &trans    &trans  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS        &trans
+&trans     &trans    &trans     &trans     &trans  &trans    &trans  &trans                                                              &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         SYSTEM {
             bindings = <
-&bt BT_CLR_ALL  &trans        &trans        &trans        &trans                       &trans  &trans  &trans  &trans  &trans
-&bt BT_SEL 0    &bt BT_SEL 4  &trans        &bt BT_CLR    &trans              &trans   &trans  &trans  &trans  &trans  &trans
-&trans          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &tog 1      &trans   &trans  &trans  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans  &trans      &trans   &trans                          &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0    &bt BT_SEL 4  &trans        &bt BT_CLR    &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &tog 1    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans  &trans    &trans  &trans                          &trans
             >;
         };
     };
