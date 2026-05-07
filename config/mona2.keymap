@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 30
 
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
@@ -94,7 +94,7 @@
 &trans     &trans  &trans  &trans  &trans                &trans    &trans  &trans                                                                    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         LAYER_2 {
@@ -105,7 +105,7 @@
 &trans     &trans    &trans     &trans     &trans  &trans    &trans  &trans                                                              &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         SYSTEM {
