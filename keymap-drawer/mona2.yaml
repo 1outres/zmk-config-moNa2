@@ -6,7 +6,7 @@ layers:
   - E
   - R
   - T
-  - {t: Y, h: SYSTEM}
+  - Y
   - U
   - I
   - O
@@ -49,7 +49,7 @@ layers:
   - U
   - ','
   - .
-  - {t: F, h: SYSTEM}
+  - F
   - W
   - R
   - Y
@@ -178,7 +178,7 @@ layers:
   - '8'
   - '9'
   - Sft+Gui+4
-  - {t: ▽, type: trans}
+  - {t: SYSTEM, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,7 +295,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
