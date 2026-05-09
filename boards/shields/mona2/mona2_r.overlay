@@ -3,6 +3,21 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
 
+&zip_temp_layer {
+    excluded-positions = <
+        17      // J
+        18      // K
+        19      // L
+        29      // M
+        30      // ,
+        21      // LSHIFT
+        33      // LCTRL
+        34      // LALT
+        35      // LCMD
+    >;
+    require-prior-idle-ms = <200>;
+};
+
 &default_transform {
     col-offset = <6>;
 };
